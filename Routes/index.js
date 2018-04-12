@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var mongojs = require("mongojs");
-var db = mongojs('mongodb://user1:Password123@ds239009.mlab.com:39009/comp308assignment3database3', ["Student", "Course"]);
+var db = mongojs('mongodb://localhost/comp308-lab3-database', ["Student"]);
 
 router.get("/", function(request, response, next){
 	//response.render("index");
