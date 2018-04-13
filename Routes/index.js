@@ -5,13 +5,13 @@ var db = mongojs('mongodb://localhost/comp308-lab3-database', ["Student"]);
 
 router.get("/", function(request, response, next){
 	//response.render("index");
-	/*db.Student.find(function(error, Students){
+	db.Student.find(function(error, Students){
 		if(error){
 			response.send(error);
 		} else {
 			response.send(Students);
 		}
-	});*/
+	});
 });
 
 module.exports = router;
