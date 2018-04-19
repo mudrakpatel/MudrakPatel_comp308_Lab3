@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MudrakPatel_comp308_Lab3.njsproj
+/FromExistingCode1.njsproj
+/.gitignore
+/MudrakPatel_comp308_Lab3.sln
+/obj/Debug
+/bin
+/.vs/MudrakPatel_comp308_Lab3/v15
